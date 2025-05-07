@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RecycleMate</title>
+  <link rel="stylesheet" href="end sem.css"/>
+</head>
+<body>
+  <header>
+    <img src="Recyclemate logo.png"> <h1>RecycleMate</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="schedule pick up.html">Schedule Pickup</a>
+      <a href="FAQs.html">Learn</a>
+    </nav>
+  </header>
+  <main class="form-section" class="center form container">
+    <h2>Schedule a Pickup </h2>
+    <form id="pickupForm" class="pickup-grid">
+  
+      <div class="input-group">
+        <label for="pickupDate">Date</label>
+          <input type="date" id="pickupDate" name="pickupDate" required>
+        </div>
+      </div>
+  
+      <div class="input-group">
+        <label for="address">Address</label>
+        <div class="icon-input">
+          <input type="text" id="address" name="address" required>
+        </div>
+      </div>
+      <br>
+  
+      <div class="item-buttons">
+        <label>Item Type:</label>
+        <div class="button-grid">
+          <button type="button">Paper</button>
+          <button type="button">Metal</button>
+          <button type="button">Wood</button>
+          <button type="button">Rubber</button>
+          <button type="button">Plastic</button>
+          <button type="button">E-waste</button>
+          <button type="button">Glass</button>
+          <button type="button">Textiles</button>
+        </div>
+      </div>
+  
+      <div class="input-group">
+        <label for="otherItem">Other (Optional)</label>
+        <div class="icon-input">
+          <input type="text" id="otherItem" placeholder="Ex: Newspaper">
+        </div>
+      </div>
+      <br>
+  
+      <div class="input-group">
+        <label for="weight">Weight (kg)</label>
+          <input type="number" id="weight" required>
+        </div>
+      </div>
+      <button onclick="window.location.href='summary.html'">submit</button>
+    </form>
+  </main>  
+  <h4>Pickup Guidelines</h4> 
+    <p>Preparing trash properly for recycling pickup is crucial to ensure materials can be effectively processed. Here are some key guidelines to follow:</p>
+    <ul>
+
+     <li> Clean and Rinse Items: Remove Residue, Dry Completely</li>
+     <li> Separate Different Materials: Remove Mixed Materials(e.g., plastic and metal in a single product)</li>
+     <li> Flatten Cardboard and Plastic Bottles: Break Down Boxes, Squash Bottles</li>
+     <li> Remove Non-Recyclable Components: Caps and Labels, Non-Recyclable Extras</li>
+     <li> Do Not Include Hazardous Materials: Special Disposal for Hazardous waste, Dispose of Medical Waste Separately. </li>
+     <li> Prepare E-Waste Properly: Remove Batteries, Protect Fragile Items.</li>
+     <li> Bundle or Contain Small Items: Group Small Pieces Together.</li>
+     <li> Check for Specific Local Requirements: Local Recycling</li>
+      
+      <p>Instructions: Always review guidelines from your local recycling center as rules vary by location, especially for uncommon items (like aerosols or certain plastics)</p>
+    </ul>
+
+    
+  <footer>
+    <p>Contact: +91 xxxxx xxxxx | © 2025 RecycleMate | recyclemate@gmail.com</p>
+      &copy; 2025 RecycleMate. All rights reserved.
+  </footer>
+<script src="end sem.js"></script>
+</body>
+</html>
